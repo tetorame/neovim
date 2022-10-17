@@ -11,11 +11,5 @@ return require('packer').startup(function()
     use {'ryanoasis/vim-devicons'}--airlineで使用するアイコン
     use {'powerline/fonts'}--フォント
     use {'ryanoasis/nerd-fonts'}--フォント
-    --Powerfontのインストール
-    --git clone https://github.com/powerline/fonts.git --depth=1
-    --cd fonts
-    --./install.sh
-    --cd ..
-    --rm -rf fonts
-
+    use {'vim-jp/vimdoc-ja'}
 end)

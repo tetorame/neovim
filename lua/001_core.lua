@@ -37,6 +37,7 @@ vim.cmd[[autocmd BufWritePost plugins.lua PackerCompile]] --自動的にPackerCo
 -----------
 vim.cmd('colorscheme duskfox')
 ----------vim-airline-----------------
+-- Airlineに対応しているフォントをインストールして、設定すること。
 vim.opt.laststatus=2
 vim.cmd('let g:airline_powerlinefonts = 1')
 vim.cmd('let g:airline#extensions#tabline#enabled = 1')
@@ -47,3 +48,4 @@ vim.cmd('let g:airline_right_sep="<"')
 vim.opt.encoding = 'utf-8'
 vim.opt.ambiwidth = 'single'
 vim.cmd('let g:airline_theme = "light"')
+

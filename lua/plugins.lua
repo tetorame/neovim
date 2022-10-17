@@ -11,5 +11,7 @@ return require('packer').startup(function()
     use {'ryanoasis/vim-devicons'}--airlineで使用するアイコン
     use {'powerline/fonts'}--フォント
     use {'ryanoasis/nerd-fonts'}--フォント
-    use {'vim-jp/vimdoc-ja'}
+    use {'vim-jp/vimdoc-ja'}--ヘルプの日本語化
+    use {'airblade/vim-gitgutter'} --git差分表示
+
 end)

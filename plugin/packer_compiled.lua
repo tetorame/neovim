@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\tetora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
   },
+  ["vim-gitgutter"] = {
+    loaded = true,
+    path = "C:\\Users\\tetora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-gitgutter",
+    url = "https://github.com/airblade/vim-gitgutter"
+  },
   ["vimdoc-ja"] = {
     loaded = true,
     path = "C:\\Users\\tetora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vimdoc-ja",

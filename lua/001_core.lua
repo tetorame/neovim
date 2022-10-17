@@ -11,7 +11,7 @@ vim.bo.autoindent = true --自動インデント
 vim.bo.smartindent = true --{}を考慮してインデントを一段後ろへ設定される
 vim.bo.tabstop = 4 --デフォルトのタブ挿入時の空白数
 vim.bo.shiftwidth = 4 --新しい行挿入時の空白数
-
+vim.bo.softtabstop = 4 --Tab入力時のスペースの数
 
 --検索関連
 vim.opt.ignorecase = true --検索時に英字の大文字・小文字の違いを無視する
@@ -28,6 +28,7 @@ vim.opt.clipboard:append{'unnamedplus'} --Windowsとクリップボードを共�
 
 --ファイル関連
 vim.bo.autoread = true --ファイルが他で変更されている場合、自動的に読み込み直す
+vim.opt.autochdir = true --カレントディレクトリを自動で移動
 
 -- 自動化
 vim.cmd[[autocmd BufWritePost plugins.lua PackerCompile]] --自動的にPackerCompileを実行する
@@ -48,4 +49,6 @@ vim.cmd('let g:airline_right_sep="<"')
 vim.opt.encoding = 'utf-8'
 vim.opt.ambiwidth = 'single'
 vim.cmd('let g:airline_theme = "light"')
+---------git-gutter---------------
+vim.cmd('let g:gitgutter_highlight_lines = 1')
 

@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["fern.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\tetora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fern.vim",
+    url = "https://github.com/lambdalisue/fern.vim"
+  },
   fonts = {
     loaded = true,
     path = "C:\\Users\\tetora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fonts",
@@ -83,11 +88,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\tetora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf-lua",
     url = "https://github.com/ibhagwan/fzf-lua"
-  },
-  ["nerd-fonts"] = {
-    loaded = true,
-    path = "C:\\Users\\tetora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerd-fonts",
-    url = "https://github.com/ryanoasis/nerd-fonts"
   },
   ["nightfox.nvim"] = {
     loaded = true,

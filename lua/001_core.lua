@@ -51,4 +51,5 @@ vim.opt.ambiwidth = 'single'
 vim.cmd('let g:airline_theme = "light"')
 ---------git-gutter---------------
 vim.cmd('let g:gitgutter_highlight_lines = 1')
-
+---------Fean---------------
+vim.cmd('let g:fern#default_hidden=1')
